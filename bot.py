@@ -3,31 +3,14 @@
 
 import logging
 logger = logging.getLogger(__name__)
-import os
-import re
-import time
-import math
-import json
-import string
-import random
-import traceback
-import wget
-import asyncio
-import datetime
-import aiofiles
-import aiofiles.os
-import requests
-import youtube_dl
-import lyricsgenius
+import os, re, time, math, json, string, random, traceback, wget, asyncio, datetime, aiofiles, aiofiles.os, requests, youtube_dl, lyricsgenius
 from config import Config
 from random import choice 
 from pyrogram import Client, filters
 from youtube_search import YoutubeSearch
 from youtubesearchpython import VideosSearch
 from database import Database
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from pyrogram.types import Message
-from pyrogram.types import InlineQuery, InlineQueryResultArticle, InputTextMessageContent
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, InlineQuery, InlineQueryResultArticle, InputTextMessageContent
 from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked, PeerIdInvalid
 from pyrogram.errors.exceptions.bad_request_400 import PeerIdInvalid
 
@@ -42,8 +25,8 @@ Bot = Client(
 db = Database()
 
 START_TEXT = """ `Hai {}, 
-Am a song(Music) Downloader Bot I Can Download Songs From YouTube and Would upload into Telegram. 
-Use /song Command To Download Songs.(eg:-/song Alone) .`
+Am a YouTube Downloader Bot I Can Download Songs,Videos and Lyrics From YouTube and lyrics and  Would upload into Telegram. 
+Use /help Commands For More.`
 """
 
 CMDS_TEXT = """
@@ -51,6 +34,7 @@ CMDS_TEXT = """
 
 - /song - This Command is For Downloading Songs. 
 - /lyrics - This Command is For Scrapping Lyrics of a Song. 
+- /video - This Command is For Downloading Videos. 
 - Also You Can search videos via inline Mode on Bot. 
 
 `Exmples For Both Those Commands.`
@@ -59,7 +43,9 @@ CMDS_TEXT = """
   [/song Alone]. 
 - /lyrics [song name]. 
   [/lyrics alone] 
-
+- /video [video name] or [YouTube link] 
+  [/video Alone] 
+  
 """
 
 ABOUT_TEXT = """
