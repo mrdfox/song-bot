@@ -3,31 +3,14 @@
 
 import logging
 logger = logging.getLogger(__name__)
-import os
-import re
-import time
-import math
-import json
-import string
-import random
-import traceback
-import wget
-import asyncio
-import datetime
-import aiofiles
-import aiofiles.os
-import requests
-import youtube_dl
-import lyricsgenius
+import os, re, time, math, json, string, random, traceback, wget, asyncio, datetime, aiofiles, aiofiles.os, requests, youtube_dl, lyricsgenius
 from config import Config
 from random import choice 
 from pyrogram import Client, filters
 from youtube_search import YoutubeSearch
 from youtubesearchpython import VideosSearch
 from database import Database
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from pyrogram.types import Message
-from pyrogram.types import InlineQuery, InlineQueryResultArticle, InputTextMessageContent
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, InlineQuery, InlineQueryResultArticle, InputTextMessageContent
 from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked, PeerIdInvalid
 from pyrogram.errors.exceptions.bad_request_400 import PeerIdInvalid
 
