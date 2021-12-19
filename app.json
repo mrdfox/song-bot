@@ -1,7 +1,7 @@
 {
     "name": "Song-Downloader-Bot",
     "description": "A BOT TO DOWNLOAD MUSIC FROM YOUTUBE.",
-    "logo": "https://telegra.ph/file/745badebb188c6da28a67.jpg",
+    "logo": "https://i.ibb.co/1d1wsvN/569c7af991c9426ff2661e879904bca8-removebg-preview.png",
     "stack": "container",
     "keywords": [
         "song",
@@ -9,9 +9,9 @@
         "Telegram",
         "nazriya"
     ],
-    "website": "https://github.com/MR-JINN-OF-TG",
-    "repository": "https://github.com/MR-JINN-OF-TG/Song-Downloader-Bot",
-    "success_url": "https://t.me/NAZRIYASUPPORT",
+    "website": "https://github.com/Judson-web",
+    "repository": "https://github.com/Judson-web/Song-Downloader-Bot",
+    "success_url": "http://t.me/BlackCatMSRobot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
@@ -27,7 +27,7 @@
         }, 
         "OWNER_ID": {
             "description": "Your id for broadcasting messages to users. Only you can broadcast message.",
-            "value": ""
+            "value": "1773423753"
         },
         "DB_URI": {
             "description": "Your database url from mongodb.",
@@ -35,7 +35,7 @@
         }, 
         "SUPPORT": {
             "description": "Your support chat Username Without @",
-            "value": "NAZRIYASUPPORT"
+            "value": "STMbOTsUPPORTgROUP"
         }
     },
     "addons": [],
