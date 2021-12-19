@@ -25,8 +25,8 @@ Bot = Client(
 db = Database()
 
 START_TEXT = """Hᴀɪ {}, 
-Aᴍ ᴀ YᴏᴜTᴜʙᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ Bᴏᴛ I Cᴀɴ Dᴏᴡɴʟᴏᴀᴅ Sᴏɴɢs,Vɪᴅᴇᴏs ᴀɴᴅ Lʏʀɪᴄs Fʀᴏᴍ YᴏᴜTᴜʙᴇ ᴀɴᴅ ʟʏʀɪᴄs ᴀɴᴅ  Wᴏᴜʟᴅ ᴜᴘʟᴏᴀᴅ ɪɴᴛᴏ Tᴇʟᴇɢʀᴀᴍ.
-Usᴇ /help Cᴏᴍᴍᴀɴᴅs Fᴏʀ Mᴏʀᴇ.\nBʏ <a href="https://t.me/VAMPIRE_KING_NO_1">Tᴇʀʀᴏʀ Mɪᴄᴋᴇʏ</a>
+Aᴍ ᴀ YᴏᴜTᴜʙᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ Bᴏᴛ I Cᴀɴ Dᴏᴡɴʟᴏᴀᴅ Sᴏɴɢs,Vɪᴅᴇᴏs & Lʏʀɪᴄs Fʀᴏᴍ YᴏᴜTᴜʙᴇ ᴀɴᴅ ʟʏʀɪᴄs ᴀɴᴅ  Wᴏᴜʟᴅ ᴜᴘʟᴏᴀᴅ ɪɴᴛᴏ Tᴇʟᴇɢʀᴀᴍ.\n\n
+Usᴇ /help Cᴏᴍᴍᴀɴᴅs Fᴏʀ Mᴏʀᴇ.\n\nBʏ <a href="https://t.me/VAMPIRE_KING_NO_1">Tᴇʀʀᴏʀ Mɪᴄᴋᴇʏ</a>
 """
 
 CMDS_TEXT = """
@@ -39,13 +39,12 @@ CMDS_TEXT = """
 
 `Exᴍᴘʟᴇs Fᴏʀ Bᴏᴛʜ Tʜᴏsᴇ Cᴏᴍᴍᴀɴᴅs`
 
-- /song [song name] Oʀ [youTube link]  
+- /song [Sᴏɴɢ Nᴀᴍᴇ] Oʀ [Yᴏᴜᴛᴜʙᴇ Lɪɴᴋ]  
   [/song Alone]   
-- /lyrics [song name]   
-  [/lyrics alone] 
-- /video [video name] Oʀ [YouTube link] 
+- /lyrics [Sᴏɴɢ Nᴀᴍᴇ]   
+  [/lyrics Alone] 
+- /video [Sᴏɴɢ Nᴀᴍᴇ] Oʀ [Yᴏᴜᴛᴜʙᴇ Lɪɴᴋ]
   [/video Alone] 
-  
 """
 
 ABOUT_TEXT = """
