@@ -31,9 +31,8 @@ Bot = Client(
 )
 
 db = Database()
-await cmd.reply_photo(photo = random.choice(Cat),
 START_TEXT = """Hᴀɪ {}, 
-Aᴍ ᴀ YᴏᴜTᴜʙᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ Bᴏᴛ I Cᴀɴ Dᴏᴡɴʟᴏᴀᴅ Sᴏɴɢs,Vɪᴅᴇᴏs & Lʏʀɪᴄs Fʀᴏᴍ YᴏᴜTᴜʙᴇ ᴀɴᴅ ʟʏʀɪᴄs ᴀɴᴅ  Wᴏᴜʟᴅ ᴜᴘʟᴏᴀᴅ ɪɴᴛᴏ Tᴇʟᴇɢʀᴀᴍ.\n
+Aᴍ ᴀ YᴏᴜTᴜʙᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ Bᴏᴛ I Cᴀɴ Dᴏᴡɴʟᴏᴀᴅ Sᴏɴɢs,Vɪᴅᴇᴏs & Lʏʀɪᴄs Fʀᴏᴍ YᴏᴜTᴜʙᴇ ᴀɴᴅ ᴜᴘʟᴏᴀᴅ ɪɴᴛᴏ Tᴇʟᴇɢʀᴀᴍ.\n
 Usᴇ /help Cᴏᴍᴍᴀɴᴅs Fᴏʀ Mᴏʀᴇ.\n\nBʏ <a href="https://t.me/VAMPIRE_KING_NO_1">Tᴇʀʀᴏʀ Mɪᴄᴋᴇʏ</a>
 """
 
@@ -67,6 +66,7 @@ ABOUT_TEXT = """
 ║┣⪼ Sᴏᴜʀᴄᴇ -  [Cʟɪᴄᴋ Hᴇʀᴇ](https://t.me/NOKIERUNNOIPPKITTUM)
 ║╰━━━━━━━━━━━━━━━➣ ╚══════════════════❍⊱❁۪۪
 """
+await cmd.reply_photo(photo = random.choice(Cat),
 START_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f"https://telegram.me/{Config.SUPPORT}"), 
