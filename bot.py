@@ -14,6 +14,14 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, 
 from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked, PeerIdInvalid
 from pyrogram.errors.exceptions.bad_request_400 import PeerIdInvalid
 
+Cat = ["https://telegra.ph/file/e251e55ce213b2e9f4c03.jpg",
+           "https://telegra.ph/file/47dba9369c1660fd7bf87.jpg",
+           "https://telegra.ph/file/91da14cb4c250e833206a.jpg",
+           "https://telegra.ph/file/2964d8516056676e82099.jpg",
+           "https://telegra.ph/file/8cc2965db0ea46ea1318f.jpg",
+           "https://telegra.ph/file/b886ff9934e6519278a53.jpg",
+           "https://telegra.ph/file/6d37256aace9919242e46.jpg"]
+
 
 Bot = Client(
     "Song Downloader Bot",
@@ -23,7 +31,7 @@ Bot = Client(
 )
 
 db = Database()
-
+await cmd.reply_photo(photo = random.choice(Cat),
 START_TEXT = """Hᴀɪ {}, 
 Aᴍ ᴀ YᴏᴜTᴜʙᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ Bᴏᴛ I Cᴀɴ Dᴏᴡɴʟᴏᴀᴅ Sᴏɴɢs,Vɪᴅᴇᴏs & Lʏʀɪᴄs Fʀᴏᴍ YᴏᴜTᴜʙᴇ ᴀɴᴅ ʟʏʀɪᴄs ᴀɴᴅ  Wᴏᴜʟᴅ ᴜᴘʟᴏᴀᴅ ɪɴᴛᴏ Tᴇʟᴇɢʀᴀᴍ.\n\n
 Usᴇ /help Cᴏᴍᴍᴀɴᴅs Fᴏʀ Mᴏʀᴇ.\n\nBʏ <a href="https://t.me/VAMPIRE_KING_NO_1">Tᴇʀʀᴏʀ Mɪᴄᴋᴇʏ</a>
