@@ -24,61 +24,63 @@ Bot = Client(
 
 db = Database()
 
-START_TEXT = """ `Hai {}, 
-Am a YouTube Downloader Bot I Can Download Songs,Videos and Lyrics From YouTube and lyrics and  Would upload into Telegram. 
-Use /help Commands For More.`
+START_TEXT = """Hᴀɪ {}, 
+Aᴍ ᴀ YᴏᴜTᴜʙᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ Bᴏᴛ I Cᴀɴ Dᴏᴡɴʟᴏᴀᴅ Sᴏɴɢs,Vɪᴅᴇᴏs ᴀɴᴅ Lʏʀɪᴄs Fʀᴏᴍ YᴏᴜTᴜʙᴇ ᴀɴᴅ ʟʏʀɪᴄs ᴀɴᴅ  Wᴏᴜʟᴅ ᴜᴘʟᴏᴀᴅ ɪɴᴛᴏ Tᴇʟᴇɢʀᴀᴍ.
+Usᴇ /help Cᴏᴍᴍᴀɴᴅs Fᴏʀ Mᴏʀᴇ.\nBʏ <a href="https://t.me/VAMPIRE_KING_NO_1">Tᴇʀʀᴏʀ Mɪᴄᴋᴇʏ</a>
 """
 
 CMDS_TEXT = """
-`Here It is The List of Commamds and Its usage.`
+`Hᴇʀᴇ Iᴛ ɪs Tʜᴇ Lɪsᴛ ᴏғ Cᴏᴍᴍᴀᴍᴅs ᴀɴᴅ Iᴛs ᴜsᴀɢᴇ`
 
-- /song - This Command is For Downloading Songs. 
-- /lyrics - This Command is For Scrapping Lyrics of a Song. 
-- /video - This Command is For Downloading Videos. 
-- Also You Can search videos via inline Mode on Bot. 
+- /song - Tʜɪs Cᴏᴍᴍᴀɴᴅ ɪs Fᴏʀ Dᴏᴡɴʟᴏᴀᴅɪɴɢ Sᴏɴɢs  
+- /lyrics - Tʜɪs Cᴏᴍᴍᴀɴᴅ ɪs Fᴏʀ Sᴄʀᴀᴘᴘɪɴɢ Lʏʀɪᴄs ᴏғ ᴀ Sᴏɴɢ  
+- /video - Tʜɪs Cᴏᴍᴍᴀɴᴅ ɪs Fᴏʀ Dᴏᴡɴʟᴏᴀᴅɪɴɢ Vɪᴅᴇᴏs  
+- Aʟsᴏ Yᴏᴜ Cᴀɴ sᴇᴀʀᴄʜ ᴠɪᴅᴇᴏs ᴠɪᴀ ɪɴʟɪɴᴇ Mᴏᴅᴇ ᴏɴ Bᴏᴛ 
 
-`Exmples For Both Those Commands.`
+`Exᴍᴘʟᴇs Fᴏʀ Bᴏᴛʜ Tʜᴏsᴇ Cᴏᴍᴍᴀɴᴅs`
 
-- /song [song name] or [youTube link]. 
-  [/song Alone]. 
-- /lyrics [song name]. 
+- /song [song name] Oʀ [youTube link]  
+  [/song Alone]   
+- /lyrics [song name]   
   [/lyrics alone] 
-- /video [video name] or [YouTube link] 
+- /video [video name] Oʀ [YouTube link] 
   [/video Alone] 
   
 """
 
 ABOUT_TEXT = """
-- **Bot :** `Song Downloader`
-- **Creator :** [MR-JINN-OF-TG](https://Github.com/MR-JINN-OF-TG)
-- **Support :** [CLICK HERE](https://telegram.me/NAZRIYASUPPORT)
-- **Source :** [CLICK HERE](https://github.com/MR-JINN-OF-TG/Song-Downloader-Bot)
-- **Language :** [Python3](https://python.org)
-- **Library :** [Pyrogram](https://pyrogram.org)
-- **Server :** [Heroku](https://heroku.com)
-
+╔════❰ Aʙᴏᴜᴛ ❱═❍⊱❁۪۪
+║╭━━━━━━━━━━━━━━━➣ 
+║┣⪼ Mʏ Nᴀᴍᴇ - <a href="http://t.me/BlackCatMSRobot">Bʟᴀᴄᴋ Cᴀᴛ</a>
+║┣⪼ Cʀᴇᴀᴛᴏʀ - <a href=https://t.me/VAMPIRE_KING_NO_1>ƬЄƦƦƠƦ MƖƇƘЄƳ</a>
+║┣⪼ Lɪʙʀᴀʀʏ - <a href="https://docs.pyrogram.org/"> Pʏʀᴏɢʀᴀᴍ </a>
+║┣⪼ Lᴀɴɢᴜᴀɢᴇ - Pʏᴛʜᴏɴ 3 
+║┣⪼ Sᴜᴘᴘᴏʀᴛ - <a href="https://t.me/STMbOTsUPPORTgROUP">Mᴇᴘʜɪsᴛᴏ Bᴏᴛ Sᴜᴘᴘᴏʀᴛ</a>
+║┣⪼ ⲂⲞⲦ Sᴇʀᴠᴇʀ - Hᴇʀᴏᴋᴜ
+║┣⪼ Sᴏᴜʀᴄᴇ -  [Cʟɪᴄᴋ Hᴇʀᴇ](https://t.me/NOKIERUNNOIPPKITTUM)
+║╰━━━━━━━━━━━━━━━➣ ╚══════════════════❍⊱❁۪۪
 """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Support📕', url=f"https://telegram.me/{Config.SUPPORT}"), 
-        InlineKeyboardButton(text="SEARCH🔎", switch_inline_query_current_chat="")
+        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url=f"https://telegram.me/{Config.SUPPORT}"), 
+        InlineKeyboardButton(text="Sᴇᴀʀᴄʜ", switch_inline_query_current_chat="")
         ],[
-        InlineKeyboardButton('HELP & USAGE⚙️', callback_data ='cmds') 
+        InlineKeyboardButton('Hᴇʟᴘ & Usᴀɢᴇ', callback_data ='cmds') 
         ],[
-        InlineKeyboardButton('ABOUT📕', callback_data='about'),
-        InlineKeyboardButton('CLOSE🔐', callback_data='close')
+        InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
+        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
         ]]
     )
 CMDS_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('HOME🏡', callback_data='home'),
-        InlineKeyboardButton('CLOSE🔐', callback_data='close')
+        InlineKeyboardButton('Hᴏᴍᴇ', callback_data='home'),
+        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
         ]]
     )
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('HOME🏡', callback_data='home'),
-        InlineKeyboardButton('CLOSE🔐', callback_data='close')
+        InlineKeyboardButton('Hᴏᴍᴇ', callback_data='home'),
+        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
         ]]
     )
 
@@ -135,11 +137,11 @@ async def send_msg(user_id, message):
         await asyncio.sleep(e.x)
         return send_msg(user_id, message)
     except InputUserDeactivated:
-        return 400, f"{user_id} : deactivated\n"
+        return 400, f"{user_id} : ᴅᴇᴀᴄᴛɪᴠᴀᴛᴇᴅ\n"
     except UserIsBlocked:
-        return 400, f"{user_id} : blocked the bot\n"
+        return 400, f"{user_id} : ʙʟᴏᴄᴋᴇᴅ ᴛʜᴇ ʙᴏᴛ\n"
     except PeerIdInvalid:
-        return 400, f"{user_id} : user id invalid\n"
+        return 400, f"{user_id} : ᴜsᴇʀ ɪᴅ ɪɴᴠᴀʟɪᴅ\n"
     except Exception as e:
         return 500, f"{user_id} : {traceback.format_exc()}\n"
 
@@ -156,7 +158,7 @@ def a(client, message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    m = message.reply('`Searching... Please Wait...`')
+    m = message.reply('`🎧Fɪɴᴅɪɴɢ Yᴏᴜʀ Sᴏɴɢ....PLᴢ Wᴀɪᴛ🎸`')
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = []
@@ -180,28 +182,28 @@ def a(client, message):
             #     m.edit("Exceeded 30mins cap")
             #     return
 
-            performer = f"[@NazriyaSongBot]" 
+            performer = f"[Bʟᴀᴄᴋ Cᴀᴛ Mᴜsɪᴄ]" 
             thumb_name = f'thumb{message.message_id}.jpg'
             thumb = requests.get(thumbnail, allow_redirects=True)
             open(thumb_name, 'wb').write(thumb.content)
 
         except Exception as e:
             print(e)
-            m.edit('**No Results Found With This Data!**')
+            m.edit('**Fᴏᴜɴᴅ Nᴏᴛʜɪɴɢ. Pʟᴢ Tʀʏ Aɴᴏᴛʜᴇʀ Sᴏɴɢ Oʀ Usᴇ Cᴏʀʀᴇᴄᴛ Sᴘᴇʟʟɪɴɢ**')
             return
     except Exception as e:
         m.edit(
-            "**Enter The Song Name with /song command.!**"
+            "**Eɴᴛᴇʀ Sᴏɴɢ Nᴀᴍᴇ Wɪᴛʜ Cᴏᴍᴍᴀɴᴅ**❗\nFᴏʀ Exᴀᴍᴘʟᴇ: `/song Alone marshmellow`"
         )
         print(str(e))
         return
-    m.edit("`AM...Uploading To TG now... Please Wait...`")
+    m.edit("`🎸Uᴘʟᴏᴀᴅɪɴɢ.....💞Pʟᴢ Wᴀɪᴛ`")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f'❍📖 <b>Title:</b> <a href="{link}">{title}</a>\n❍⌚ <b>Duration:</b> <code>{duration}</code>\n❍📤 <b>Uploaded By:</b> <a href="https://t.me/NazriyaSongBot">NazriyaSongBot</a>'
+        rep = f'🎸 <b>𝐓𝐢𝐭𝐥𝐞:</b> <a href="{link}">{title}</a>\n🎙️ <b>𝐃𝐮𝐫𝐚𝐭𝐢𝐨𝐧:</b> <code>{duration}</code>\n🎧 <b>𝐕𝐢𝐞𝐰𝐬:</b> <code>{views}</code>\n🎷 <b>𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐛𝐲:</b> {message.from_user.mention()}'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
@@ -209,7 +211,7 @@ def a(client, message):
         message.reply_audio(audio_file, caption=rep, parse_mode='HTML',quote=False, title=title, duration=dur, performer=performer, thumb=thumb_name)
         m.delete()
     except Exception as e:
-        m.edit('**Something Went Wrong Report This at @NAZRIYASUPPORT!!**')
+        m.edit('**An Error Occured. Please Report This To** @STMbOTsUPPORTgROUP !!')
         print(e)
     try:
         os.remove(audio_file)
@@ -227,7 +229,7 @@ async def inline(client: Client, query: InlineQuery):
         await client.answer_inline_query(
             query.id,
             results=answers,
-            switch_pm_text="Search your query here...🔎",
+            switch_pm_text="Sᴇᴀʀᴄʜ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ ʜᴇʀᴇ...🔎",
             switch_pm_parameter="help",
             cache_time=0
         )
@@ -260,13 +262,13 @@ async def inline(client: Client, query: InlineQuery):
             await query.answer(
                 results=answers,
                 cache_time=0,
-                switch_pm_text="Error: Search timed out",
+                switch_pm_text="Eʀʀᴏʀ: Sᴇᴀʀᴄʜ ᴛɪᴍᴇᴅ ᴏᴜᴛ",
                 switch_pm_parameter="",
             )
         
 @Bot.on_message(filters.private & filters.command("broadcast") & filters.reply)
 async def broadcast_(c, m):
-    print("broadcasting......")
+    print("Bʀᴏᴀᴅᴄᴀsᴛɪɴɢ......")
     if m.from_user.id not in Config.OWNER_ID:
         await c.delete_messages(
             chat_id=m.chat.id,
@@ -283,7 +285,7 @@ async def broadcast_(c, m):
             break
     
     out = await m.reply_text(
-        text = f"Broadcast initiated! You will be notified with log file when all the users are notified."
+        text = f"Bʀᴏᴀᴅᴄᴀsᴛ ɪɴɪᴛɪᴀᴛᴇᴅ! Yᴏᴜ ᴡɪʟʟ ʙᴇ ɴᴏᴛɪғɪᴇᴅ ᴡɪᴛʜ ʟᴏɢ ғɪʟᴇ ᴡʜᴇɴ ᴀʟʟ ᴛʜᴇ ᴜsᴇʀs ᴀʀᴇ ɴᴏᴛɪғɪᴇᴅ"
     )
     start_time = time.time()
     total_users = await db.total_users_count()
@@ -358,13 +360,13 @@ async def lrsearch(_, message: Message):
     y.verbose = False
     S = y.search_song(query, get_full_info=False)
     if S is None:
-        return await m.edit("Lyrics not found..🙃😔.")
+        return await m.edit("Lʏʀɪᴄs ɴᴏᴛ ғᴏᴜɴᴅ..🙃😔")
     xxx = f"""
-**Lyrics Search Powered By Music Bot**
-**Searched Song:-** __{query}__
-**Found Lyrics For:-** __{S.title}__
-**Artist:-** {S.artist}
-**__Lyrics:__**
+**Lʏʀɪᴄs Sᴇᴀʀᴄʜ Pᴏᴡᴇʀᴇᴅ Bʏ Bʟᴀᴄᴋ Cᴀᴛ Mᴜsɪᴄ Bᴏᴛ**
+**Sᴇᴀʀᴄʜᴇᴅ Sᴏɴɢ -** __{query}__
+**Fᴏᴜɴᴅ Lʏʀɪᴄs Fᴏʀ -** __{S.title}__
+**Aʀᴛɪsᴛ -** {S.artist}
+**__Lʏʀɪᴄs:__**
 {S.lyrics}"""
     await m.edit(xxx)
 
@@ -373,14 +375,14 @@ async def ytmusic(client, message: Message):
     global is_downloading
     if is_downloading:
         await message.reply_text(
-            "Another download is in progress, try again after sometime."
+            "Aɴᴏᴛʜᴇʀ ᴅᴏᴡɴʟᴏᴀᴅ ɪs ɪɴ ᴘʀᴏɢʀᴇss, ᴛʀʏ ᴀɢᴀɪɴ ᴀғᴛᴇʀ sᴏᴍᴇᴛɪᴍᴇ"
         )
         return
 
     urlissed = get_text(message)
 
     pablo = await client.send_message(
-        message.chat.id, f"`Finding {urlissed} From Youtube Servers. Please Wait.\n\n Uploading Slowed down Due to Heavy Traffic.!`"
+        message.chat.id, f"`Fɪɴᴅɪɴɢ {urlissed} Fʀᴏᴍ Yᴏᴜᴛᴜʙᴇ Sᴇʀᴠᴇʀs. Pʟᴇᴀsᴇ Wᴀɪᴛ.\n\nUᴘʟᴏᴀᴅɪɴɢ Sʟᴏᴡᴇᴅ ᴅᴏᴡɴ Dᴜᴇ ᴛᴏ Hᴇᴀᴠʏ Tʀᴀғғɪᴄ.!`"
     )
     if not urlissed:
         await pablo.edit("Invalid Command Syntax, Please Check Help Menu To Know More!")
@@ -417,7 +419,7 @@ async def ytmusic(client, message: Message):
 
             if duration > DURATION_LIMIT:
                 await pablo.edit(
-                    f"❌ Videos longer than {DURATION_LIMIT} minute(s) aren't allowed, the provided video is {duration} minute(s)"
+                    f"❌ Vɪᴅᴇᴏs ʟᴏɴɢᴇʀ ᴛʜᴀɴ{DURATION_LIMIT} ᴍɪɴᴜᴛᴇ(s) ᴀʀᴇɴ'ᴛ ᴀʟʟᴏᴡᴇᴅ, ᴛʜᴇ ᴘʀᴏᴠɪᴅᴇᴅ ᴠɪᴅᴇᴏ ɪs {duration} ᴍɪɴᴜᴛᴇ(s)"
                 )
                 is_downloading = False
                 return
@@ -430,7 +432,7 @@ async def ytmusic(client, message: Message):
 
     c_time = time.time()
     file_stark = f"{ytdl_data['id']}.mp4"
-    capy = f"**Video Title ➠** `{thum}` \n**Requested Song :** `{urlissed}` \n**Source :** `{thums}` \n**Link :** `{mo}`"
+    capy = f"**Vɪᴅᴇᴏ Tɪᴛʟᴇ ➠** `{thum}` \n**Rᴇᴏ̨ᴜᴇsᴛᴇᴅ Sᴏɴɢ :** `{urlissed}` \n**Sᴏᴜʀᴄᴇ :** `{thums}` \n**Lɪɴᴋ :** `{mo}`"
     await client.send_video(
         message.chat.id,
         video=open(file_stark, "rb"),
@@ -443,7 +445,7 @@ async def ytmusic(client, message: Message):
         progress_args=(
             pablo,
             c_time,
-            f"`Uploading {urlissed} Song From YouTube Music!`",
+            f"`Uᴘʟᴏᴀᴅɪɴɢ {urlissed} Sᴏɴɢ Fʀᴏᴍ YᴏᴜTᴜʙᴇ Mᴜsɪᴄ!`",
             file_stark,
         ),
     )
