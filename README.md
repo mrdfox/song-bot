@@ -1,4 +1,4 @@
-# Song-Downloader-Bot
+# Song-Bot
 
 A BOT TO DOWNLOAD SONGS FROM YOUTUBE. 
 
@@ -8,7 +8,7 @@ A BOT TO DOWNLOAD SONGS FROM YOUTUBE.
 - API_HASH - Get It From [my.telegram.org](https://my.telegram.org) 
 - BOT_TOKEN - Get It From [@Botfather](https://t.me/BOTFATHER)
 - DB_URI - Mongo Database URL from [https://cloud.mongodb.com/](https://cloud.mongodb.com/) 
-- OWNER_ID - Get This From [Ross](https://t.me/MissRose_bot) By using /id command on bot pm. 
+- OWNER_ID - Get This From [Ross](https://t.me/kunjappanpachubot) By using /id command on bot pm. 
 
 
 # Feautures 
@@ -40,4 +40,4 @@ A BOT TO DOWNLOAD SONGS FROM YOUTUBE.
 
 # support Group
 
-- [Click Here To Reach Our Support Group](https://t.me/STMbOTsUPPORTgROUP) 
+- [Click Here To Reach Our Support Group](https://t.me/kunjappansupportez) 
