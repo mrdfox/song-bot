@@ -21,9 +21,9 @@ A BOT TO DOWNLOAD SONGS FROM YOUTUBE.
 
 # Credits 
 
-- [Oxidisedman](https://github.com/Oxidisedman). 
-- [Muhammed](https://github.com/PR0FESS0R-99). 
-- [Pyrogram](https://github.com/pyrogram/pyrogram) and For [Me](https://github.com/Judson-web)
+- [Oxidisedman](https://github.com/hopepsycho). 
+- [Muhammed](https://github.com/hopepsycho). 
+- [Pyrogram](https://github.com/pyrogram/pyrogram) and For [Me](https://github.com/hopepsycho)
 
 
 # Deploy To Heroku
@@ -31,7 +31,7 @@ A BOT TO DOWNLOAD SONGS FROM YOUTUBE.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Judson-web/Song-Downloader-Bot">
+<a href="https://heroku.com/deploy?template=https://github.com/hopepsycho/Songbot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
