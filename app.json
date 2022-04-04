@@ -1,7 +1,7 @@
 {
-    "name": "Song-Downloader-Bot",
+    "name": "Songbot",
     "description": "A BOT TO DOWNLOAD MUSIC FROM YOUTUBE.",
-    "logo": "https://i.ibb.co/1d1wsvN/569c7af991c9426ff2661e879904bca8-removebg-preview.png",
+    "logo": "https://telegra.ph/file/976590281b6e3ed9e5648.jpg",
     "stack": "container",
     "keywords": [
         "song",
@@ -9,9 +9,9 @@
         "Telegram",
         "nazriya"
     ],
-    "website": "https://github.com/Judson-web",
-    "repository": "https://github.com/Judson-web/Song-Downloader-Bot",
-    "success_url": "http://t.me/BlackCatMSRobot",
+    "website": "https://github.com/hopepsycho",
+    "repository": "https://github.com/hopepsycho/Songbot",
+    "success_url": "http://t.me/ANGELOFDEVILBOT",
     "env": {
         "BOT_TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
@@ -35,7 +35,7 @@
         }, 
         "SUPPORT": {
             "description": "Your support chat Username Without @",
-            "value": "STMbOTsUPPORTgROUP"
+            "value": "KUNJAPPANSUPPORTEZ"
         }
     },
     "addons": [],
