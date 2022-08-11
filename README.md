@@ -31,7 +31,7 @@ A BOT TO DOWNLOAD SONGS FROM YOUTUBE.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/hopepsycho/Songbot">
+<a href="https://heroku.com/deploy?template=https://github.com/mrdfox/song-bot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -40,4 +40,4 @@ A BOT TO DOWNLOAD SONGS FROM YOUTUBE.
 
 # support Group
 
-- [Click Here To Reach Our Support Group](https://t.me/at3botsupportez) 
+- [Click Here To Reach Our Support Group](https://t.me/at3botsupportz) 
