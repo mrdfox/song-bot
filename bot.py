@@ -25,7 +25,7 @@ Bot = Client(
 db = Database()
 START_TEXT = """Hᴀɪ {}, 
 Aᴍ ᴀ YᴏᴜTᴜʙᴇ Dᴏᴡɴʟᴏᴀᴅᴇʀ Bᴏᴛ I Cᴀɴ Dᴏᴡɴʟᴏᴀᴅ Sᴏɴɢs,Vɪᴅᴇᴏs & Lʏʀɪᴄs Fʀᴏᴍ YᴏᴜTᴜʙᴇ ᴀɴᴅ ᴜᴘʟᴏᴀᴅ ɪɴᴛᴏ Tᴇʟᴇɢʀᴀᴍ.\n
-Usᴇ /help Cᴏᴍᴍᴀɴᴅs Fᴏʀ Mᴏʀᴇ.\n\nBʏ <a href="https://t.me/"mr_d_foxʏ</a>
+Usᴇ /help Cᴏᴍᴍᴀɴᴅs Fᴏʀ Mᴏʀᴇ.\n\nBʏ <a href="https://t.me/"mr_d_fox" MR.D_FOX</a>
 """
 
 CMDS_TEXT = """
@@ -49,13 +49,13 @@ CMDS_TEXT = """
 ABOUT_TEXT = """
 ╔════❰ Aʙᴏᴜᴛ ❱═❍⊱❁۪۪
 ║╭━━━━━━━━━━━━━━━➣ 
-║┣⪼ Mʏ Nᴀᴍᴇ - <a href="http://t.me/AT3SONGSERCHBOT">Aɴɢᴇʟ Sᴏɴɢ</a>
-║┣⪼ Cʀᴇᴀᴛᴏʀ - <a href=https://t.me/mr_d_fox</a>
+║┣⪼ Mʏ Nᴀᴍᴇ - <a href="http://t.me/AT3SONGSERCHBOT">AT3 SONG SERCH BOT</a>
+║┣⪼ Cʀᴇᴀᴛᴏʀ - <a href=https://t.me/mr_d_fox"MR.D_FOX</a>
 ║┣⪼ Lɪʙʀᴀʀʏ - <a href="https://docs.pyrogram.org/"> Pʏʀᴏɢʀᴀᴍ </a>
 ║┣⪼ Lᴀɴɢᴜᴀɢᴇ - Pʏᴛʜᴏɴ 3 
-║┣⪼ Sᴜᴘᴘᴏʀᴛ - <a href="https://t.me/at3botsupportz">Mᴇᴘʜɪsᴛᴏ Bᴏᴛ Sᴜᴘᴘᴏʀᴛ</a>
+║┣⪼ Sᴜᴘᴘᴏʀᴛ - <a href="https://t.me/at3botsupportz">AT3 BOT SUPPORT</a>
 ║┣⪼ ⲂⲞⲦ Sᴇʀᴠᴇʀ - Hᴇʀᴏᴋᴜ
-║┣⪼ Sᴏᴜʀᴄᴇ -  [Cʟɪᴄᴋ Hᴇʀᴇ](https://GitHub.com/hopepsycho)
+║┣⪼ Sᴏᴜʀᴄᴇ -  [Cʟɪᴄᴋ Hᴇʀᴇ](https://github.com/mrdfox/song-bot)
 ║╰━━━━━━━━━━━━━━━➣ ╚══════════════════❍⊱❁۪۪
 """
 START_BUTTONS = InlineKeyboardMarkup(
