@@ -50,7 +50,7 @@ ABOUT_TEXT = """
 ╔════❰ Aʙᴏᴜᴛ ❱═❍⊱❁۪۪
 ║╭━━━━━━━━━━━━━━━➣ 
 ║┣⪼ Mʏ Nᴀᴍᴇ - <a href="http://t.me/AT3SONGSERCHBOT">AT3 SONG SERCH BOT</a>
-║┣⪼ Cʀᴇ
+
 ║┣⪼ Lɪʙʀᴀʀʏ - <a href="https://docs.pyrogram.org/"> Pʏʀᴏɢʀᴀᴍ </a>
 ║┣⪼ Lᴀɴɢᴜᴀɢᴇ - Pʏᴛʜᴏɴ 3 
 ║┣⪼ Sᴜᴘᴘᴏʀᴛ - <a href="https://t.me/at3botsupportz">AT3 BOT SUPPORT</a>
